@@ -1,0 +1,160 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+  background: linear-gradient(to bottom, #0f172a, #020617);
+  color: white;
+  text-align: center;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  background: rgba(2, 6, 23, 0.9);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* PROJECT CARDS */
+.project-card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #1e293b;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #38bdf8;
+  box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+}
+
+.project-card a {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* FORM */
+form {
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #020617;
+  color: white;
+}
+input, textarea {
+  background: #020617;
+  border: 1px solid #1e293b;
+}
+
+button {
+  margin-top: 15px;
+  background: #38bdf8;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  color: #94a3b8;
+  font-size: 14px;
+}
+.btn:active {
+  transform: scale(0.95);
+}
